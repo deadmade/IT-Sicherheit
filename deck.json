@@ -1,0 +1,992 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "9aab1f28-c592-11ee-9029-f2a0fc844426",
+    "deck_config_uuid": "4749c275-c590-11ee-a7ca-f2a0fc844426",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4749c275-c590-11ee-a7ca-f2a0fc844426",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 150
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 1500
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": false,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-30973749adbc16c3bb2448e4523a868926caab5b.jpg",
+        "paste-47700f5ce6a664db8a362be7670a80078b9c62da.jpg",
+        "paste-5908bd838d91b378bc00d351c96ec7a08a83f560.jpg",
+        "paste-b59230872e59175264560756b95892e575029db4.jpg"
+    ],
+    "name": "IT-Sicherheit",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was war der Grund für den Paradigmen Wechsel?",
+                "<ul><li>Wanna Cry</li><li>Corona</li></ul>"
+            ],
+            "guid": "MG:*SVmexU",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet CIA (Nicht Behörde)",
+                "<ul><li>C = Confidentility</li><li>I = Integrity</li><li>A = Availability</li></ul>"
+            ],
+            "guid": "MSfAIPa&X",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sagt man zu Kosten bei Malware schade?",
+                "Meistens Quatsch, da sie von den Vertreibern der Produkte kommen"
+            ],
+            "guid": "J4o]f.Vg>U",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man jemanden Identifizieren?",
+                "<ul><li>Besitz</li><li>Wissen</li><li>Eigenschaften</li></ul>"
+            ],
+            "guid": "k+XYr)F9N+",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In welcher Situation befinden wir uns aktuell? (Viren)",
+                "<ul><li>Es kommt zu einem Digital Pearl Harbour. Durch einen besonders bösartigen Virus entsteht ein Schaden, der nicht mehr toleriert werden kann. Dadurch kommt es zu einem Bruch in der Entwicklung. Ist der anderichtete Schaden groß genung, gehen genügend Daten verloren oder wird sogar Hardware beschädig, wird die Forderung nach \"sicheren\" Systemen so massiv, dass es zu einem Paradigmenwechsel kommt</li></ul>"
+            ],
+            "guid": "f`$Vn1bOU9",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo beginnt Sicherheit?",
+                "Mit der Vermeidung von Pfusch"
+            ],
+            "guid": "n_*3y4wo^M",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bedeutung Schutz von Daten",
+                "<ul><li>gegen Beeinträchtigung (Verlust, Zerstörung, Änderung) und Mißbrauch</li></ul>"
+            ],
+            "guid": "sI$4Zx7|@^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vor was müssen Daten geschützt werden?",
+                "<ul><li>Sabotsage</li><li>Spionage</li><li>Betrug</li><li>(Nicht) Verfügbarkeit</li></ul>"
+            ],
+            "guid": "t[QzpX<hQV",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bedeutung Datenschutz",
+                "Schutz von Personen vor Beeinträchtigungen durch Verarbeitung von Daten"
+            ],
+            "guid": "ktX@9dU^3u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet Integriät?",
+                "<ul><li>Konsistenz</li><li>Korrektheit</li></ul>"
+            ],
+            "guid": "sI)Ap!4&qp",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel für Risiken für Integrität",
+                "Viren"
+            ],
+            "guid": "DnuIyUGVzm",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Überbegriff Integrität",
+                "Sabotage"
+            ],
+            "guid": "f.cu;=@IPm",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bedeutung Vertraulichkeit",
+                "Zugriff nur durch berechtige Personen"
+            ],
+            "guid": "dK9,uNz$0m",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bedeutung Verbindlichkeit",
+                "<ul><li>Authentisierung von Nutzern</li><li>Persistenz</li></ul><br>"
+            ],
+            "guid": "QO$94o+x+F",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bedeutung Verfügbarkeit",
+                "Zugriff jederzeit möglich"
+            ],
+            "guid": "Qhyiprk$4V",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Risiken für Vertraulichkeit",
+                "Hacker"
+            ],
+            "guid": "A~91Y~@-2U",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Risiken für Verbindlichkeit",
+                "fake orders spoofing"
+            ],
+            "guid": "Cnh6lxQ}4:",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Risiken für Verfügbarkeit",
+                "<ul><li>DoS</li><li>DDoS</li><li>mail flooding</li></ul>"
+            ],
+            "guid": "K/x;;)F?Lz",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Verbrechen Vertraulichkeit",
+                "Spionage"
+            ],
+            "guid": "p*u=k>$d7i",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Verbrechen&nbsp; Verbindlichkeit",
+                "Betrug"
+            ],
+            "guid": "g0.#6Mi<ac",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Verbrechen Verfügbarkeit",
+                "Nicht-Verfügbarkeit"
+            ],
+            "guid": "y#jDXkZ9]a",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Correctness",
+                "Abscence of improper system state"
+            ],
+            "guid": "Ls4!?!CTS4",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Safety",
+                "Absence of catastrophic consequences"
+            ],
+            "guid": "OE#$qJ5%d|",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Security",
+                "Absence of unauthorized access"
+            ],
+            "guid": "NG.N*;]C|`",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Privacy",
+                "Absence of unauthorized disclosure of data"
+            ],
+            "guid": "Fj#I8vMtyZ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel für einen der ersten großen Viren",
+                "Loveletter"
+            ],
+            "guid": "Oio5y]`R*T",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist IT-Sicherheit?",
+                "Schwer"
+            ],
+            "guid": "A[$lW]}&N,",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist an IT-Sicherheit schwer?",
+                "<ul><li>es gibt immer SIcherheitslücken</li><li>Prozess, Diebe finden immer neue Möglichkeiten Daten zu klauen</li></ul>"
+            ],
+            "guid": "AXuSQ_;xnl",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IT-Sicherheit Bedrohungen",
+                "<ul><li>Viren</li><li>Malware</li><li>Trojaner</li><li>Hacker</li><li>Phishing Mail</li><li>DDOS</li></ul>"
+            ],
+            "guid": "z[p]@Pfi^A",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maßnahmen zur IT-Sicherheit",
+                "<ul><li>Authentisierung</li><li>Verschlüsselung</li></ul>"
+            ],
+            "guid": "bARiWRl!{q",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was zählt bei der IT-Sicherheit",
+                "Das schwächste Glied"
+            ],
+            "guid": "{k3iRii2",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie verhindert man Unberechtigten Zugriff?",
+                "<ul><li>user identification</li><li>Nutzerrechte</li><li>Zugriffskontrolle</li><li>Verschlüsselung</li></ul>"
+            ],
+            "guid": "F~05kf*m%1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "User Identification",
+                "<ul><li>Passwort</li><li>Biometrie</li><li>Authentisierungsverfahren</li></ul>"
+            ],
+            "guid": "lSb-#S5eF>",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Nutzerrechte",
+                "<div>Wer darf auf welche Resourcen zugreifen</div>"
+            ],
+            "guid": "J*oS*a05XR",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zugriffskontrolle",
+                "<ul><li>firewall</li><li>Intrusion Detection Syystem</li></ul>"
+            ],
+            "guid": "t7n;m2]Qmb",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Verschlüsselung",
+                "Zugriff auf Daten bleibt zwar möglich, diese sind aber nutzlos"
+            ],
+            "guid": "gB1[[e<94K",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man Passwörter knacken?",
+                "<ul><li>Brute force hack</li><li>Dictionary hack</li><li>Spionage</li><li>Social Engineering</li></ul>"
+            ],
+            "guid": "sv&}zjKqFi",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Brute force hack",
+                "Ausprobieren aller Buchstabenkombinationen"
+            ],
+            "guid": "t)M(CSrl[B",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dictionary hack",
+                "<ul><li>Systematisches Ausprobieren von häufiger verwendeten Wörtern (aus Wortlisten)</li><li>Hybride Verfahren</li></ul>"
+            ],
+            "guid": "O(44#<CblK",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dictionary hack Hybride Verfahren was ist das?",
+                "<ul><li>Kombination von Wörterbuch und Ausprobieren von Buchstaben/Zahlen</li></ul>"
+            ],
+            "guid": "K#M3k6,;ru",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Spionage",
+                "<ul><li>Blick über die Schulter</li><li>Trojanische Pferde -&gt; key logger</li></ul>"
+            ],
+            "guid": "w|}PL;1nMw",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Social Engineering",
+                "<ul><li>Ausnutzen der Naivität von Anwendern</li></ul>"
+            ],
+            "guid": "L(=8I?_[{1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Social Engineering",
+                "Fake mail an Angestellte mit sender spoofing zur Abfrage von Kennwörtern"
+            ],
+            "guid": "E-iKWhGBa8",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie gut funktioniert Social Engineering?",
+                "Laut BBC News Studie wolten 92% der Teilnehmer persönliche Angaben verraten"
+            ],
+            "guid": "p)ZKqOT$0@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Möglichkeiten gibt es für die Biometrie?",
+                "<ul><li>Fingerabdruck</li><li>Gesicht</li><li>Iris</li><li>Stimme</li><li>Hand</li><li>Schrift</li><li>Retina</li></ul>"
+            ],
+            "guid": "y`ONaO94|i",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wieso braucht man Verschlüsselung",
+                "Datenübertragung über öffentliche Netze ist öffentlich (insbesondere bei Funknetzen)"
+            ],
+            "guid": "tn.vud=GEr",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist die Lösung zur Datenübertragung in öffentlichen Netzen?",
+                "<ul><li>Private Netze</li><li>Verschlüsselung</li></ul>"
+            ],
+            "guid": "q.qp*Wp|qj",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nachteil Private Netze?",
+                "Sehr teuer"
+            ],
+            "guid": "rXI+s?B$^`",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert Verschlüsselung?",
+                "Der Absender wnedet (mathematische) Funktion auf die Daten an, die nur (!) vom Empfänger rückgängig gemacht werden kann"
+            ],
+            "guid": "JN&`.yKW_g",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Verschlüsselung",
+                "Absender:<br>E = e(K,M): K = key, M = message<br>M = d(K,E): E = encrypted message<br><br>Funktioniert, wenn M = d(K, e(K,M))"
+            ],
+            "guid": "IvQOEY[As.",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist eine einfache Verschlüsselungstechnik?",
+                "Jedes Zeichen wird durch ein anderes ersetzt"
+            ],
+            "guid": "e]S`<9(~_1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man einfache Verschlüsselungen auflösen?",
+                "Durch Kryptoanalyse durch die relative Häufigkeit"
+            ],
+            "guid": "P-G!f9gg0u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wenn eine Nachricht nur ein Zeichen lang ist, ist eine Kryptoanalyse möglich?",
+                "Nein<br>Wenn der Schlüssel (mindestens) die gleiche Länge hat, wie die Nachricht, kann sie nicht entschlüsselt werden!"
+            ],
+            "guid": "qg{iQ[zB^P",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktionieren Stromschlüssel?",
+                "Verschlüsseln eine Folge von einzelnen Zeichen Schlüssel üblicherweise durch Zufallsgenerator<br><br><img src=\"paste-47700f5ce6a664db8a362be7670a80078b9c62da.jpg\">"
+            ],
+            "guid": "IfuC4fg*3o",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert Blockschlüssel",
+                "Verschlüsseln Blöcke fester Länge (typ 64 Bit)<br><br><img src=\"paste-b59230872e59175264560756b95892e575029db4.jpg\">"
+            ],
+            "guid": "vM;okzM<z,",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Moderne Verschlüsselungsverfahren",
+                "<ul><li>Kombination von Substitution und Transportation</li><li>symmetrische</li><li>asymmetrisch</li><li>Signatur</li></ul>"
+            ],
+            "guid": "F$Ec6(`hmC",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kombination von Substition und Transportation",
+                "<ul><li>DES (alt)</li><li>AES (neu)</li></ul>"
+            ],
+            "guid": "lx5<3U[=uJ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Symmetische Verschlüsselungsverfahren",
+                "Schlüssel für Sender und Empfänger gleich"
+            ],
+            "guid": "Bc2zgR7`/!",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Problem symmetrische Verschlüsselung",
+                "Wie übermittelt man den Schlüssel?<br><ul><li>An viele Partner</li><li>Lange Schlüssel (one time pad)</li></ul>"
+            ],
+            "guid": "k_?}]txcK4",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ist das symmetrische Verschlüsselung Gelöst?",
+                "Nein!"
+            ],
+            "guid": "g{_zK>]GiZ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktionieren asymmetrische Verschlüsselungsverfahren",
+                "<ul><li>unterschiedliche Schlüssel zum Ver- und Entschlüsseln</li><li>Public/Private key</li></ul>"
+            ],
+            "guid": "ujUe[o6JlJ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Problem asymmetrische Verschlüsselung",
+                "Diskrete Mathematik: Faktorisierung großer Zahlen ist (extrem) rechenaufwändig"
+            ],
+            "guid": "PM#URCz!G6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Signatur",
+                "one way functions"
+            ],
+            "guid": "ki%aYP|fkh",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was benötigen Verschlüsselungsalgorithmen",
+                "Eine sehr gute Implementierung<br>sonst bringt der ganze Algorythmus nichts!"
+            ],
+            "guid": "bx`c21gSyg",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man die Integrität einer Datei überprüfen?",
+                "Prüfsumme"
+            ],
+            "guid": "MR5qkTqKd1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Prüfsummen checks",
+                "<ul><li>beabsichtige Änderungen</li><li>Prüfsummen sind leicht zu fälschen</li><li>krypthogafische Verfahren</li></ul>"
+            ],
+            "guid": "Mg2YGf`Sit",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert eine Firewall?",
+                "Eine Firewall ist ein zentraler Kontrollpunkt zwischen dem Internet und dem Lan"
+            ],
+            "guid": "E}-pzlKi6k",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Router",
+                "<ul><li>Router leitet IP-Packet weiter</li><li>vom Lan ins Internet</li><li>vom Internet ins Lan</li></ul>"
+            ],
+            "guid": "u+v@-SY6l=",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Screening Router",
+                "<ul><li>Paketfilter</li><li>leitet nur Pakete weiter, die def. Regeln entsprechen</li></ul>"
+            ],
+            "guid": "s5GP0tuSTJ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Personal firewall Funktion",
+                "<div><ul><li>Eine personal firewall ist ein \"eingebauter\" Paketfilter der anwendungsbezogen filter</li></ul></div>"
+            ],
+            "guid": "t_a/,4cG}I",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nachteil Personal Firewall",
+                "Sicherheit ist fragwürdig"
+            ],
+            "guid": "Ox~%Nui(*<",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "IT-SIcherheit best practice",
+                "<ul><li>Einsatz application layer firewall</li><li>Automatische Updats für alles</li><li>Aktuelle Updates</li><li>Abschalten aller nicht benötigten Dienste</li><li>Löschen aller nicht benötigten Programme</li><li>Netwerke nach backdoors, Trojanern und anderen Sicherheitslücken scannen</li><li>Intrusion Detection System verwenden</li></ul>"
+            ],
+            "guid": "s+E*0C.Q,&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das Problem bei sicheren Systemen?",
+                "<ul><li>Die meisten (einfachen) Angriffe sind leicht abzublocken</li><li>qualifizeirte/motivierte Hacker nicht</li></ul>"
+            ],
+            "guid": "xK-srr&Ouu",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tradeoff sichere Systeme",
+                "<img src=\"paste-5908bd838d91b378bc00d351c96ec7a08a83f560.jpg\">"
+            ],
+            "guid": "p^~g7}.a@a",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Problem Tradeoffs sichere Systemen",
+                "Schlechte Usability kann Sicherheit verschlechtern<br>Restriktive Password policy -&gt; schwer zu merken -&gt; Nutzer schreiben PW auf oder verwenden Standartpasswort"
+            ],
+            "guid": "rehG+09n$M",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Clevere Lösung",
+                "<ul><li>Persönliche Fragen statt Kennwörter</li><li>Nach mehrfacher Eingabe eines falschen Kennwortes wird der login für bestimmte Zeit gesperrt</li></ul>"
+            ],
+            "guid": "_/c1eCt]K",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Problem Persönliche Fragen statt Kennwörtern",
+                "Der Name von Paris Hiltons Hund ist Tinkerbell<br>-&gt; Ihr Account wurde deswegen gehackt"
+            ],
+            "guid": "s9fnL=Bd1K",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteil sperren des Accounts nach PW falsch eingabe",
+                "<img src=\"paste-30973749adbc16c3bb2448e4523a868926caab5b.jpg\">"
+            ],
+            "guid": "F=g*H9rAK6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wäre wenn Geldautomatien dein FIngerabdruck prüfen würden",
+                "<ul><li>Vielleicht weniger Betrug?</li><li>Vielleicht mehr Raubüberfälle</li></ul>"
+            ],
+            "guid": "CHSn,iqGz5",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fortschrittlichste Technologie?",
+                "Sie lässt sich umgehen man kann es den Angreifern nur erschweren"
+            ],
+            "guid": "j=&.kgHK1<",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist sicher genug?",
+                "<ul><li>Wie viel Sicherheit wird gebraucht</li><li>Wie viel Sicherheit ist gewollt</li><li>Umgang mit Risiken</li><li>Keine Standardlösung</li></ul>"
+            ],
+            "guid": "MLkjs+h[D5",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie viel Sicherheit wird gebraucht?",
+                "<ul><li>Analyse der Risiken, Schäden usw. nötig</li><li>Online Wettervorhersage vs Online-banking</li></ul>"
+            ],
+            "guid": "g9tEsjah#m",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie viel Sicherheit ist gewollt?",
+                "<ul><li>Usability</li><li>Kosten</li></ul>"
+            ],
+            "guid": "HS55idG1.d",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Umgang mit Risiken",
+                "<ul><li>technisch</li><li>Organisatorisch (Schulungen,...)</li></ul>"
+            ],
+            "guid": "OW2:05KU:A",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
